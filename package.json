@@ -1,0 +1,34 @@
+{
+  "name": "@conduitimpl/library-template",
+  "version": "1.0.0",
+  "description": "/* TODO: CHANGEME */",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "./dist",
+    "./src",
+    "./LICENSE.BlueOak-1.0.0.md",
+    "./LICENSE.BSD-2-Clause-Patent.md",
+    "./LICENSE.ISC.md",
+    "./package.json",
+    "./README.md",
+    "./yarn.lock"
+  ],
+  "repository": "https://github.com/conduitimpl/ /* TODO: CHANGEME */",
+  "author": "The Conduit Lab <lab@conduitim.pl>",
+  "license": "(BlueOak-1.0.0 OR BSD-2-Clause-Patent OR ISC)",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "commitizen": "^4.1.5",
+    "cz-conventional-changelog": "3.2.0",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
